@@ -13,4 +13,4 @@ simple weather forecast application for Polish Cities
 4.Odpytanie strony:  http://api.openweathermap.org/data/2.5/weather?q=Kłodzko&mode=xml gdzie w GET podaję nazwę 
   lokalizacji uzyskanej wcześniej.
   
-5.Przetworzenie uzyskanej informacji oraz prezentacja pogody.
+5.Przetworzenie uzyskanej informacji XML oraz prezentacja pogody.
