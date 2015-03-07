@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11adb7"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewNearestLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:shadowDx="5"
+            android:shadowDy="10"
+            android:text="wczytuję..."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageViewObrazek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/imageViewObrazekpreloader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+         <TextView
+            android:id="@+id/textViewOpis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="opis"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal" >
+
+             <TextView
+                 android:id="@+id/textViewTemperatura"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="temp"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/textViewTempOpis"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text=" °C "
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/textViewCisnienie"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="cisnienie"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/textViewCisnienieOpis"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text=" hPa"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#fff" />
+
+         </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textViewWilgotnosc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wilgotnosc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewWilgotnoscOpis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" % "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+            
+           <TextView
+               android:id="@+id/textViewPrzewidywaneOpadyOpis"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Przewidywane opady: "
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewPrzewidywaneOpady"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" dec"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textViewWiatrOpis1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wiatr: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewWiatrPredkosc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wiatr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+            
+            <TextView
+                android:id="@+id/textViewWiatrPredkoscOpis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" km/h "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+            
+            <TextView
+                android:id="@+id/textViewWiatrKierunek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" kierunek"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textViewWschodOpis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wschód: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewWschod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dane "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewZachodOpis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Zachód: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textViewZachod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" dane"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/labelWspY"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textViewWspY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/labelWspX"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textViewWspX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

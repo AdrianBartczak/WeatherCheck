@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jest to plik XML typu animacja, schemat dla animation list można skopiować np z XML głównej aktywności -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:drawable="@drawable/foto_13d1" android:duration="50"></item> 
+   <item android:drawable="@drawable/foto_13d2" android:duration="50"></item>
+   <item android:drawable="@drawable/foto_13d3" android:duration="50"></item>
+   <item android:drawable="@drawable/foto_13d4" android:duration="50"></item>
+   <item android:drawable="@drawable/foto_13d5" android:duration="50"></item>
+   <item android:drawable="@drawable/foto_13d6" android:duration="50"></item>
+   
+</animation-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="labelWspY">wspY: </string><string name="app_name">PUM4z3</string>
+    <string name="labelWspX">wspX: </string><string name="labelSzukaj">szukaj</string><string name="hello_world">Hello world!</string>
+    <string name="labelMiejscowosc">miejscowosc</string>
+    
+    
+    
+
+</resources>
